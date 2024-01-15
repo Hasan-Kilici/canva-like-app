@@ -1,0 +1,30 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tiptap/extension-color": "^2.1.16",
+    "@tiptap/extension-document": "^2.1.16",
+    "@tiptap/extension-highlight": "^2.1.16",
+    "@tiptap/extension-image": "^2.1.16",
+    "@tiptap/extension-text-align": "^2.1.16",
+    "@tiptap/extension-text-style": "^2.1.16",
+    "@tiptap/extension-underline": "^2.1.16",
+    "@tiptap/pm": "^2.1.16",
+    "@tiptap/starter-kit": "^2.1.16",
+    "@tiptap/vue-3": "^2.1.16",
+    "dotenv": "^16.3.1",
+    "vue": "^3.3.11"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "sass": "^1.69.7",
+    "vite": "^5.0.8"
+  }
+}
